@@ -11,26 +11,17 @@
     <style>
         :root {
             /* Couleurs par défaut (dark mode) */
-             --primary: #5D8BF4;         
-    --primary-dark: #3A5FC8;    
-    --primary-light: #7FA3FF; 
-
-    --secondary: #2B3442;    
-    --accent: #FF6B6B;         
-    --accent-dark: #E05555;    
-
-    --text: #E0E5EC;           
-    --text-secondary: #B8C2D9; 
-
-    --bg-dark: #1E2430;        
-    --card-bg: rgba(43, 52, 66, 0.85); 
-    --header-bg: rgba(30, 36, 48, 0.95); 
-    --footer-bg: rgba(30, 36, 48, 0.95);
-
-    --success: #6BCB77;      
-    --warning: #FFD166;     
-    --error: #FF6B6B;        
-}
+            --primary: #4A6FA5;
+            --primary-dark: #3A5A8A;
+            --primary-light: #6B8FC7;
+            --secondary: #212A3E;
+            --accent: #FF7E5F;
+            --text: #F8F9FA;
+            --bg-dark: #1A1E2C;
+            --card-bg: rgba(33, 42, 62, 0.9);
+            --header-bg: rgba(33, 42, 62, 0.95);
+            --footer-bg: rgba(33, 42, 62, 0.95);
+        }
 
         /* Light mode colors */
         [data-theme="light"] {
@@ -1205,14 +1196,23 @@
                     <h3>Analyste d'exploitation</h3>
                     <p>Actuellement en BTS SIO option SISR (Solutions d'infrastructure, systèmes et réseaux), je me spécialise dans l'exploitation de données. Passionné par les nouvelles technologies, j'aime apprendre et mettre en pratique mes connaissances à travers divers projets.</p>
                     <p>Mon objectif est de continuer à développer mes compétences en gestion d'infrastructures et en sécurité des systèmes d'information.</p>
-                     
+                    
+                    <div class="skills">
                         <div class="skill-category">
-                            <h4>Assistance utilisateur</h4>
+                            <h4>ERP</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Reporting</span>
+                                <span class="skill-tag">Gestion</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4>Data Exchanger</h4>
                             <div class="skill-tags">
                                 <span class="skill-tag">Sécurité</span>
-                                <span class="skill-tag">Assistance</span>
-                                <span class="skill-tag">Ticket</span>
-                                <span class="skill-tag">Diagnostic</span>
+                                <span class="skill-tag">Échange et traçabilité</span>
+                                <span class="skill-tag">Circulation des données</span>
+                                <span class="skill-tag">Partage de données</span>
                             </div>
                         </div>
                         
@@ -1295,7 +1295,7 @@
         </div>
         <div class="container">
             <div class="projects-grid">
-                <!-- Projet 1 -->
+                <!-- Projet 3 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="https://www.infinylink.fr/wp-content/uploads/2021/11/modernisation-infrastructure-informatique.jpg" alt="Active Directory Windows Server">
@@ -1317,7 +1317,7 @@
                     </div>
                 </div>
                 
-                <!-- Projet 2 -->
+                <!-- Projet 4 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="https://tse4.mm.bing.net/th/id/OIP.ZkzZrn8kn853Z3osk_z9GAHaDt?rs=1&pid=ImgDetMain" alt="GLPI Ticketing">
@@ -1338,27 +1338,7 @@
                     </div>
                 </div>
                 
-                <!-- Projet 2 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://tse3.mm.bing.net/th/id/OIP.oZTX98hGg8Pett_RVGANAAAAAA?rs=1&pid=ImgDetMain" alt="GLPI Ticketing">
-                    </div>
-                    <div class="project-info">
-                        <h3>Server core</h3>
-                        <p>Dans le cadre de l’optimisation des ressources et de la sécurité du système, j’ai configuré un serveur Windows Server 2022 en mode Core. Ce serveur, dépourvu d’interface graphique, a été intégré au réseau via PowerShell en lui attribuant un nom d’hôte personnalisé et une adresse IP statique. Par la suite, j’ai installé les rôles nécessaires et promu le serveur en tant que contrôleur de domaine principal.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Windows Server</span>
-                            <span class="project-tag">Logiciel MSI</span>
-                            <span class="project-tag">GPO</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="view-project" data-project="5">
-                                <i class="fas fa-external-link-alt"></i> Voir le projet
-                            </a>
-                        </div>
-                    </div>
-                </div>
-              <!-- Projet 2 -->
+                <!-- Projet 5 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="https://www.sgit-consulting.ch/wp-content/uploads/2023/02/Depositphotos_421833194_XL-1024x761.jpg">
@@ -1370,12 +1350,52 @@
                             <span class="project-tag">Windows Server</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="view-project" data-project="4">
+                            <a href="#" class="view-project" data-project="5">
                                 <i class="fas fa-external-link-alt"></i> Voir le projet
                             </a>
                         </div>
                     </div>
-                </div>                
+                </div>
+              <!-- Projet 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://bluebearsit.com/wp-content/uploads/2019/06/Support_infog%C3%A9rance_Plan-de-travail-1.png">
+                    </div>
+                    <div class="project-info">
+                        <h3>Support aux utilisateurs</h3>
+                        <p>Participation au support utilisateur en répondant aux demandes d’assistance, en résolvant les incidents courants et en accompagnant les utilisateurs dans l’utilisation de leur environnement informatique. Cette activité permet de maintenir un bon niveau de service et de renforcer la satisfaction des utilisateurs.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">outlook</span>
+                          <span class="project-tag">skype</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="view-project" data-project="6">
+                                <i class="fas fa-external-link-alt"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              <!-- Projet 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://www.itespresso.fr/wp-content/uploads/2013/04/ibm_urbancode.jpg" alt="GLPI Ticketing">
+                    </div>
+                    <div class="project-info">
+                        <h3>Déploiement des postes libre-service</h3>
+                        <p>Dans le cadre du déploiement des postes libre-service, j’ai participé à l’installation et à la mise en service de matériel informatique tel que des ordinateurs, des stations d’accueil HP, des écrans, des claviers et des souris. J’ai veillé à ce que chaque poste soit correctement câblé, fonctionnel et prêt à l’usage pour les utilisateurs en libre accès.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PC HP</span>
+                            <span class="project-tag">station d'accueil</span>
+                            <span class="project-tag">matériels</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="view-project" data-project="7">
+                                <i class="fas fa-external-link-alt"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
     </section>
   
 
@@ -1412,6 +1432,7 @@
             </div>
         </div>
         <div class="certification-proof">
+            <a href="AttestationCertifSecNum.pdf" target="_blank" class="proof-link"><i class="fas fa-file-pdf"></i> Voir la preuve de certification</a>
         </div>
     </div>
 </div>
@@ -1496,7 +1517,7 @@
                             <span><i class="fas fa-tag"></i> IA</span>
                         </div>
                         <p>Découvrez les nouvelles actualités concernant les IA.</p>
-                        <a href="https://www.actuia.com/" 
+                        <a href="https://www.google.fr/search?q=Inteligence+artificielle+actualit%C3%A9s" 
                            class="veille-link" 
                            target="_blank" 
                            rel="noopener noreferrer">
@@ -1512,7 +1533,7 @@
                             <span><i class="fas fa-tag"></i> Cybersécurité</span>
                         </div>
                         <p>Découvrez les nouvelles actualités concernant la cybersécurité.</p>
-                        <a href="https://www.usine-digitale.fr/article/cybersecurite-vers-une-montee-en-competence-des-etablissements-de-sante-grace-aux-exercices-de-crise.N2231077" 
+                        <a href="https://www.google.fr/search?q=cybersecurit%C3%A9+actualit%C3%A9s&tbm=nws" 
                            class="veille-link" 
                            target="_blank" 
                            rel="noopener noreferrer">
@@ -1743,7 +1764,7 @@
                 <h2>Créer des utilisateurs dans l’AD à partir d’un CSV</h2>
                 <div class="project-meta">
                     <span><i class="far fa-calendar-alt"></i> Mai 2025</span>
-                    <span><i class="fas fa-tag"></i> Infrastructure réseau</span>
+                    <span><i class="fas fa-tag"></i> AD</span>
                 </div>
             </div>
             <div class="modal-body">
@@ -1836,9 +1857,9 @@
         <div class="modal-content">
             <button class="close-modal">×</button>
             <div class="modal-header">
-                <h2>Server core</h2>
+                <h2>Sauvegarde automatique</h2>
                 <div class="project-meta">
-                    <span><i class="far fa-calendar-alt"></i> Janvier 2023</span>
+                    <span><i class="far fa-calendar-alt"></i> Janvier 2024</span>
                     <span><i class="fas fa-tag"></i> Infrastructure réseau</span>
                 </div>
             </div>
@@ -1848,30 +1869,110 @@
                 </div>
                 <div class="modal-details">
                     <h3>Description du projet</h3>
-                    <p>Dans le cadre de l’optimisation des ressources et de la sécurité du système, j’ai configuré un serveur Windows Server 2022 en mode Core. Ce serveur, dépourvu d’interface graphique, a été intégré au réseau via PowerShell en lui attribuant un nom d’hôte personnalisé et une adresse IP statique. Par la suite, j’ai installé les rôles nécessaires et promu le serveur en tant que contrôleur de domaine principal. Cette approche en ligne de commande garantit une meilleure performance et réduit la surface d’attaque, tout en développant les compétences en administration système avancée.</p>
+                    <p>Dans le cadre de la protection des données et de la continuité des activités, j’ai mis en place un système de sauvegardes automatiques pour un serveur. À l’aide de scripts personnalisés, j’ai configuré une tâche planifiée permettant de copier régulièrement les fichiers critiques vers un emplacement sécurisé, tel qu’un serveur de sauvegarde ou un répertoire réseau distant. Cette solution automatisée assure la conservation des données en cas de panne ou de sinistre, tout en limitant les risques d’erreur humaine. Elle permet également de maintenir un historique des sauvegardes et de garantir une restauration rapide en cas de besoin.</p>
                     
                     <div class="modal-features">
                         <h4>Fonctionnalités implémentées</h4>
                         <ul>
-                            <li>Création d'une VM server core</li>
-                            <li>Configuration du server</li>
+                            <li>Windows server backup</li>
+                            <li>Configuration du backup</li>
                         </ul>
                     </div>
                     
                     <div class="modal-technologies">
                         <span class="modal-tech-tag">Windows Server 2022</span>
-                        <span class="modal-tech-tag">Active Directory</span>
-                        <span class="modal-tech-tag">DNS</span>
-                        <span class="modal-tech-tag">GPO</span>
-                        <span class="modal-tech-tag">PowerShell</span>
                     </div>
                     
                     <div class="modal-links">
-                        <a href="#" target="_blank">
+                        <a href="https://www.youtube.com/watch?v=0K7m0UZzhfo" target="_blank">
                             <i class="fas fa-external-link-alt"></i> Voir la documentation
                         </a>
                         <a href="#" target="_blank">
-                            <i class="fab fa-github"></i> Voir les scripts
+                            <i class="fab fa-github"></i> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+          <!-- Modale Projet 6 -->
+    <div class="project-modal" id="project-modal-6">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <div class="modal-header">
+                <h2>Support aux utilisateurs</h2>
+                <div class="project-meta">
+                    <span><i class="far fa-calendar-alt"></i> Novembre 2023 - Aout 2025</span>
+                    <span><i class="fas fa-tag"></i> Infrastructure </span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.YuXVfZNqli10rCGculPu7QHaEx?rs=1&pid=ImgDetMain" alt="Détails techniques">
+                </div>
+                <div class="modal-details">
+                    <h3>Description du projet</h3>
+                    <p>Dans le cadre de mes activités, j’ai participé au support technique auprès des utilisateurs en entreprise. Cela inclut le diagnostic et la résolution d’incidents matériels et logiciels, la prise en charge des problèmes liés aux connexions réseau, aux périphériques, ainsi qu’à l’environnement Windows. J’ai également assisté les utilisateurs dans la gestion de leurs comptes, la configuration de leurs postes de travail, et la compréhension des outils informatiques courants. Cette expérience m’a permis de développer mes compétences en communication, en réactivité et en résolution de problèmes informatiques au quotidien.</p>
+                    
+                    <div class="modal-features">
+                        <h4>Fonctionnalités implémentées</h4>
+                        <ul>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="modal-technologies">
+                        <span class="modal-tech-tag">Contact avec les utilisateurs</span>
+                    </div>
+                    
+                    <div class="modal-links">
+                        <a href="https://www.youtube.com/watch?v=0K7m0UZzhfo" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Voir la documentation
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-github"></i> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    <!-- Modale Projet 7 -->
+    <div class="project-modal" id="project-modal-7">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <div class="modal-header">
+                <h2>Support aux utilisateurs</h2>
+                <div class="project-meta">
+                    <span><i class="far fa-calendar-alt"></i> Novembre 2023 - Aout 2025</span>
+                    <span><i class="fas fa-tag"></i> Infrastructure </span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <img src="https://th.bing.com/th/id/R.7d7f586340c2b28d83f5f5cadd675bb9?rik=pNZaH%2bn76w4oHQ&riu=http%3a%2f%2fwww.planetecampus.com%2fwp-content%2fuploads%2f2014%2f10%2f5904270-8796733.jpg&ehk=bEuC8nMmBByd4WxJqfWqQVoSQuiPduvNM%2fOozSR9X2A%3d&risl=&pid=ImgRaw&r=0" alt="Détails techniques">
+                </div>
+                <div class="modal-details">
+                    <h3>Description du projet</h3>
+                    <p>Dans le cadre du déploiement des postes libre-service, j’ai effectué l’installation physique et la connexion de plusieurs équipements informatiques : unités centrales, stations d’accueil HP, écrans, claviers et souris. Cette intervention a permis de garantir une mise en service rapide et conforme des postes, tout en assurant une uniformité du matériel mis à disposition des utilisateurs.</p>
+                    
+                    <div class="modal-features">
+                        <h4>Fonctionnalités implémentées</h4>
+                        <ul>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="modal-technologies">
+                        <span class="modal-tech-tag">Contact avec les utilisateurs</span>
+                    </div>
+                    
+                    <div class="modal-links">
+                        <a href="https://www.youtube.com/watch?v=0K7m0UZzhfo" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Voir la documentation
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-github"></i> 
                         </a>
                     </div>
                 </div>
